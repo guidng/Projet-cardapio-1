@@ -1,0 +1,94 @@
+/* é usado para fazer omentario em html*/
+/* quando for colocada mais de uma cor de fundo ou de letra vai gerar a cascata onde a ultima cor vai ser mais relevante, mas caso vc crie uma classe para o que você quer colorir fará com que só uma função mude.*/
+/*padding é preenchimento, ou seja espaço da borda para a outra ponta.*/
+  /*margin é espaço em ingles, o que significa que isso são os espações entre linhas*/
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+background: rgb(240, 205, 146);
+font-family: 'Roboto', sans-serif ;
+}
+ul{
+  list-style: none;
+}
+
+/*FONTS*/
+h1,
+h2,
+h3,
+.price{
+  font-family: 'Roboto Serife', serif;
+  text-transform: uppercase;
+  color: #2D2C2A;
+}
+
+header{
+  color: #995000; 
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  
+ /* Aqui o numero da esquerda é em cima e em baixo, ja o da direita são das laterais*/ 
+}
+header h1{
+  margin-bottom: 4px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 30px;
+}
+
+header h1 span{
+  color: rgb(128, 81, 50); 
+  max-width: 300px;
+}
+
+#subtitulo
+{  
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgba(0,0,0,0.7)
+}
+
+section{
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+section h2{
+ font-size: 18px;
+}
+
+#Desert,
+#Drinks,
+#Brunch{
+  padding: 8px 16px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(192, 140, 51);
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+ul li {
+margin-top: 15px;
+  display: flex;
+}
+
+li .details{
+  max-width: 240px;
+}
+
+.details h3{
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.details p{
+  color: rgba(0,0,0,0.6);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
